@@ -28,15 +28,18 @@ Features:
 Satellite-based measurement
 Hourly resolution
 Reliable and globally accessible
+
 🔷 4. Methodology
+
 4.1 Data Collection
 API request is sent using Python requests library
 Data retrieved in JSON format
-Extracted irradiance values for 24 hours
+Extracted irradiance values for 24 hours.
 4.2 Data Processing
 Irradiance values converted into NumPy array
 Hour-wise indexing applied (0–23 hours)
-Data structured using Pandas
+Data structured using Pandas.
+
 4.3 PV System Modeling
 
 The solar PV output is calculated using:
@@ -49,6 +52,7 @@ G = Solar irradiance (W/m²)
 A = Panel area (1.6 m²)
 η = Efficiency (18%)
 PR = Performance ratio (0.75)
+
 4.4 Peak Detection
 
 Peak power is calculated using:
@@ -58,8 +62,10 @@ Maximum value of power output array
 Peak hour is determined by:
 
 Index of maximum power
+
 4.5 Data Storage
 Processed data is saved as CSV:
+
 data/solar_data.csv
 
 This ensures:
@@ -67,6 +73,7 @@ This ensures:
 Reusability
 Easy analysis
 Integration with other tools
+
 4.6 Visualization
 
 Two plots are generated:
@@ -78,7 +85,9 @@ Plots are saved in:
 
 outputs/irradiance_plot.png
 outputs/power_output_plot.png
+
 🔷 5. Results and Analysis
+
 📊 Observations:
 Solar irradiance follows a daily cycle
 Zero irradiance during night hours
