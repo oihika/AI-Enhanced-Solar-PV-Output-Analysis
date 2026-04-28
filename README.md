@@ -1,8 +1,6 @@
 # AI-Enhanced-Solar-PV-Output-Analysis
 AI-powered solar PV output analysis using NASA real-time data, with visualization, peak detection, and performance insights.
 
-AI-powered solar PV output analysis using NASA real-time data, with visualization, peak detection, and performance insights.
-
 
 📌 Abstract
 This project presents a data-driven analysis of solar photovoltaic (PV) output using real-time irradiance data from the NASA POWER API.
